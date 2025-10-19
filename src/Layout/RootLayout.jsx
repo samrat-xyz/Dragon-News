@@ -18,7 +18,7 @@ function RootLayout() {
           <Navbar />
         </nav>
       </header>
-      <main className="border w-11/12 mx-auto grid grid-cols-12 p-1">
+      <main className="w-11/12 mx-auto grid grid-cols-12 p-1">
         {/* left aside */}
         <aside className="col-span-3 sticky top-0 h-fit">
           <LeftAside></LeftAside>

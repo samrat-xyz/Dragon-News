@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router'
+import { Link, NavLink } from 'react-router'
 import user from '../../assets/user.png'
 function Navbar() {
     const links = <>
@@ -16,7 +16,7 @@ function Navbar() {
         <div className='w-9 h-9 '>
             <img src={user} alt="" />
         </div>
-        <p className='text-white px-6 py-2 rounded bg-[#403F3F]'>Login</p>
+        <Link to='/auth' className='text-white px-6 py-2 rounded bg-[#403F3F]'>Login</Link>
       </div>
     </div>
   )
